@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: ActuallyRuben <actuallyruben@gmail.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>sthreedirectsharing</id>
+    <name>S Three Direct Sharing</name>
+    <summary>Direct S3 sharing</summary>
+    <description><![CDATA[Allows sharing of S3 files directly, instead of through NextCloud.
+Visibility of the file is managed by this plugin to prevent sharing files unintentionally]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="actuallyruben@gmail.com" >ActuallyRuben</author>
+    <namespace>SThreeDirectSharing</namespace>
+    <category>files</category>
+    <bugs>https://github.com/ActuallyRuben/SThreeDirectSharing/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="25" max-version="25"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>S Three Direct Sharing</name>
+            <route>sthreedirectsharing.page.index</route>
+        </navigation>
+    </navigations>
+</info>
